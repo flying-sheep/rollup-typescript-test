@@ -1,0 +1,27 @@
+{
+	"name": "rollup-typescript-test",
+	"version": "1.0.0",
+	"description": "rollup react typescript test",
+	"repository": "github:flying-sheep/rollup-typescript-test",
+	"main": "index.js",
+	"author": "Philipp A.",
+	"license": "GPL-3.0",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"devDependencies": {
+		"@types/react": "^15.0.20",
+		"@types/react-dom": "^0.14.23",
+		"resolve": "^1.3.2",
+		"rollup": "^0.41.6",
+		"rollup-plugin-commonjs": "^8.0.2",
+		"rollup-plugin-node-resolve": "^2.0.0",
+		"rollup-plugin-typescript2": "^0.3.0",
+		"tslib": "^1.6.0",
+		"typescript": "^2.2.2"
+	},
+	"dependencies": {
+		"react": "^15.4.2",
+		"react-dom": "^15.4.2"
+	}
+}
