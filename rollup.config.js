@@ -8,12 +8,7 @@ export default {
 	format: 'iife',
 	plugins: [
 		typescript(),
-		commonjs({
-			namedExports: {
-				'node_modules/react/react.js': ['createElement', 'Component'],
-				'node_modules/react-dom/index.js': ['render'],
-			},
-		}),
+		commonjs(),
 		resolve(),
 	]
 }
